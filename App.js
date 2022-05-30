@@ -9,7 +9,7 @@ const App = () => {
   const handleChangeToggle = () => setToggle(oldToggle => !oldToggle);
 
   useEffect(() => {
-    // Liga flash do celular
+    cl;
     Torch.switchState(toggle);
   }, [toggle]);
 
