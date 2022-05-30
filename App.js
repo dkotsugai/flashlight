@@ -9,7 +9,6 @@ const App = () => {
   const handleChangeToggle = () => setToggle(oldToggle => !oldToggle);
 
   useEffect(() => {
-    cl;
     Torch.switchState(toggle);
   }, [toggle]);
 
